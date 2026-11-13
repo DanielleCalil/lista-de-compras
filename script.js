@@ -264,7 +264,7 @@ function renderizar() {
   filtrados.forEach((item) => lista.appendChild(criarElementoItem(item)));
 
   if (itens.length === 0) {
-    listaVazia.textContent = "Sua lista está vazia. Adicione um item acima! 🥕";
+    listaVazia.textContent = "Sua lista está vazia. Adicione um item acima!";
     listaVazia.style.display = "block";
   } else if (filtrados.length === 0) {
     listaVazia.textContent = "Nenhum item encontrado.";
